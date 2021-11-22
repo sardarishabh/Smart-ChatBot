@@ -4,7 +4,7 @@ import string
 import random
 #import keras
 
-f=open("chatbot.csv","r",errors="ignore")
+f=open("chatbot.txt","r",errors="ignore")
 raw_doc=f.read()
 raw_doc=raw_doc.lower()
 nltk.download("punkt")
